@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <nav style="background-color:grey; text-align: right;"><h2> 
+        <a style="color:gainsboro;" href="http://127.0.0.1:5500/html/Home.html#">Home</a>&emsp;&emsp;
+        <a style="color:gainsboro;" href="http://127.0.0.1:5500/html/About%20us.html#">About Us</a>&emsp;&emsp;
+    </h2>  </nav>
+    
+    <h1 style="color: darkolivegreen;">Send me a message</h1>
+    <form action="/">
+        <h1> Contact Us</h1>
+        <div>
+        <label style="color: forestgreen;" for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value=" "><br><br>
+
+        <label style="color:forestgreen;" for="fname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+
+        <label style="color: forestgreen;";" for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+        <label style="color: forestgreen;" for="email">Enter your Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label style="color: forestgreen;" for="phone">Enter your phone number:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+
+        <label style="color: forestgreen;" for="message">Message</label><br>
+        <textarea rows="4" cols="50" name="comment" form="usrform">Enter text here...</textarea><br><br>
+
+        <button style="color: gray;" type="submit" form="form1" value="Submit">Submit</button>
+        </div>
+    </form>
+
+</body>
+</html>
